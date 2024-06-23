@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackHole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+        <div class="header-content">
+            <h1>BlackHole</h1>
+            <nav>
+                <a href="#">популярное</a>
+                <a href="#">выбор города</a>
+                <a href="#">Корзина</a>
+                <a href="#">Связь</a>
+            </nav>
+        </div>
+    </header>
+    <aside class="side-menu" id="side-menu">
+        <a href="#" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+        <div class="telegram-container">
+            <a href="https://t.me/Million_fear_enemies" target="_blank" class="telegram-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" class="telegram-icon">
+                Остались вопросы? Напиши нам!
+            </a>
+        </div>
+    </aside>
+    <main>
+        <h2>Наш выбор</h2>
+        <p>Помните — краткость сестра таланта, а вместо оценок «лучший», «качественный», «быстрый» рекомендуем использовать факты — цифры и статистику.</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="/8572c7247894cd672561bb29971438c4.jpg" alt="автомобили">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Автомобили</h3>
+                        <button onclick="redirectToTelegram()">Читать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="/33ea3905ff9500618a8da3664dc8307b.jpg" alt="наука">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Наука</h3>
+                        <button onclick="redirectToTelegram()">Читать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="/feb7bba129fda6e5da0c82253e2a3141.jpg" alt="манга">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Манга</h3>
+                        <button onclick="redirectToTelegram()">Читать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="/b739f670c3a7dc98f6920fde46422a3b.jpg" alt="психология">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Психология</h3>
+                        <button onclick="redirectToTelegram()">Читать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="/4486c6986c152b2ba706dfd22d8bb3b4.jpg" alt="романы">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Романы</h3>
+                        <button onclick="redirectToTelegram()">Читать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="/f12fb78923fc101778ed48aa8cccecc5.jpg" alt="программирование">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Программирование</h3>
+                        <button onclick="redirectToTelegram()">Читать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
